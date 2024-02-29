@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2ECD848F2B8EDDB9001D811C /* snapcloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECD848E2B8EDDB9001D811C /* snapcloneApp.swift */; };
-		2ECD84912B8EDDB9001D811C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECD84902B8EDDB9001D811C /* ContentView.swift */; };
+		2E1B7D862B8FB0E8008371B4 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1B7D852B8FB0E8008371B4 /* CameraView.swift */; };
+		2ECD848F2B8EDDB9001D811C /* LosslessPhotoUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECD848E2B8EDDB9001D811C /* LosslessPhotoUpload.swift */; };
 		2ECD84932B8EDDBB001D811C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ECD84922B8EDDBB001D811C /* Assets.xcassets */; };
 		2ECD84962B8EDDBB001D811C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ECD84952B8EDDBB001D811C /* Preview Assets.xcassets */; };
+		2ECD849D2B8EDDFA001D811C /* PhotoCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECD849C2B8EDDFA001D811C /* PhotoCaptureView.swift */; };
+		2ECD84A12B8EDE30001D811C /* NetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECD84A02B8EDE30001D811C /* NetworkLayer.swift */; };
+		2ECD84A32B8EE237001D811C /* PhotoCaptureVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECD84A22B8EE237001D811C /* PhotoCaptureVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2ECD848B2B8EDDB9001D811C /* snapclone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = snapclone.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2ECD848E2B8EDDB9001D811C /* snapcloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snapcloneApp.swift; sourceTree = "<group>"; };
-		2ECD84902B8EDDB9001D811C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2E1B7D852B8FB0E8008371B4 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		2ECD848B2B8EDDB9001D811C /* LosslessPhotoUpload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LosslessPhotoUpload.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ECD848E2B8EDDB9001D811C /* LosslessPhotoUpload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LosslessPhotoUpload.swift; sourceTree = "<group>"; };
 		2ECD84922B8EDDBB001D811C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2ECD84952B8EDDBB001D811C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2ECD849C2B8EDDFA001D811C /* PhotoCaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCaptureView.swift; sourceTree = "<group>"; };
+		2ECD84A02B8EDE30001D811C /* NetworkLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLayer.swift; sourceTree = "<group>"; };
+		2ECD84A22B8EE237001D811C /* PhotoCaptureVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCaptureVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +41,7 @@
 		2ECD84822B8EDDB9001D811C = {
 			isa = PBXGroup;
 			children = (
-				2ECD848D2B8EDDB9001D811C /* snapclone */,
+				2ECD848D2B8EDDB9001D811C /* LosslessPhotoUpload */,
 				2ECD848C2B8EDDB9001D811C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,20 +49,23 @@
 		2ECD848C2B8EDDB9001D811C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2ECD848B2B8EDDB9001D811C /* snapclone.app */,
+				2ECD848B2B8EDDB9001D811C /* LosslessPhotoUpload.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2ECD848D2B8EDDB9001D811C /* snapclone */ = {
+		2ECD848D2B8EDDB9001D811C /* LosslessPhotoUpload */ = {
 			isa = PBXGroup;
 			children = (
-				2ECD848E2B8EDDB9001D811C /* snapcloneApp.swift */,
-				2ECD84902B8EDDB9001D811C /* ContentView.swift */,
 				2ECD84922B8EDDBB001D811C /* Assets.xcassets */,
 				2ECD84942B8EDDBB001D811C /* Preview Content */,
+				2ECD848E2B8EDDB9001D811C /* LosslessPhotoUpload.swift */,
+				2E1B7D852B8FB0E8008371B4 /* CameraView.swift */,
+				2ECD849C2B8EDDFA001D811C /* PhotoCaptureView.swift */,
+				2ECD84A22B8EE237001D811C /* PhotoCaptureVM.swift */,
+				2ECD84A02B8EDE30001D811C /* NetworkLayer.swift */,
 			);
-			path = snapclone;
+			path = LosslessPhotoUpload;
 			sourceTree = "<group>";
 		};
 		2ECD84942B8EDDBB001D811C /* Preview Content */ = {
@@ -70,9 +79,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2ECD848A2B8EDDB9001D811C /* snapclone */ = {
+		2ECD848A2B8EDDB9001D811C /* LosslessPhotoUpload */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2ECD84992B8EDDBB001D811C /* Build configuration list for PBXNativeTarget "snapclone" */;
+			buildConfigurationList = 2ECD84992B8EDDBB001D811C /* Build configuration list for PBXNativeTarget "LosslessPhotoUpload" */;
 			buildPhases = (
 				2ECD84872B8EDDB9001D811C /* Sources */,
 				2ECD84882B8EDDB9001D811C /* Frameworks */,
@@ -82,9 +91,9 @@
 			);
 			dependencies = (
 			);
-			name = snapclone;
+			name = LosslessPhotoUpload;
 			productName = snapclone;
-			productReference = 2ECD848B2B8EDDB9001D811C /* snapclone.app */;
+			productReference = 2ECD848B2B8EDDB9001D811C /* LosslessPhotoUpload.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +111,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2ECD84862B8EDDB9001D811C /* Build configuration list for PBXProject "snapclone" */;
+			buildConfigurationList = 2ECD84862B8EDDB9001D811C /* Build configuration list for PBXProject "LosslessPhotoUpload" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +124,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2ECD848A2B8EDDB9001D811C /* snapclone */,
+				2ECD848A2B8EDDB9001D811C /* LosslessPhotoUpload */,
 			);
 		};
 /* End PBXProject section */
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2ECD84912B8EDDB9001D811C /* ContentView.swift in Sources */,
-				2ECD848F2B8EDDB9001D811C /* snapcloneApp.swift in Sources */,
+				2ECD849D2B8EDDFA001D811C /* PhotoCaptureView.swift in Sources */,
+				2ECD84A12B8EDE30001D811C /* NetworkLayer.swift in Sources */,
+				2E1B7D862B8FB0E8008371B4 /* CameraView.swift in Sources */,
+				2ECD848F2B8EDDB9001D811C /* LosslessPhotoUpload.swift in Sources */,
+				2ECD84A32B8EE237001D811C /* PhotoCaptureVM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,10 +283,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"snapclone/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"LosslessPhotoUpload/Preview Content\"";
 				DEVELOPMENT_TEAM = VZPMV36P9L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires access to the camera to capture photos.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -300,10 +313,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"snapclone/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"LosslessPhotoUpload/Preview Content\"";
 				DEVELOPMENT_TEAM = VZPMV36P9L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires access to the camera to capture photos.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -325,7 +339,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2ECD84862B8EDDB9001D811C /* Build configuration list for PBXProject "snapclone" */ = {
+		2ECD84862B8EDDB9001D811C /* Build configuration list for PBXProject "LosslessPhotoUpload" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2ECD84972B8EDDBB001D811C /* Debug */,
@@ -334,7 +348,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2ECD84992B8EDDBB001D811C /* Build configuration list for PBXNativeTarget "snapclone" */ = {
+		2ECD84992B8EDDBB001D811C /* Build configuration list for PBXNativeTarget "LosslessPhotoUpload" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2ECD849A2B8EDDBB001D811C /* Debug */,

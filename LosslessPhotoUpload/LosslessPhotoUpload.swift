@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct snapcloneApp: App {
+struct LosslessPhotoUpload: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+          CameraView()
         }
     }
 }
